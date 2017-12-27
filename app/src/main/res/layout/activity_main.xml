@@ -151,13 +151,26 @@
 
     </RelativeLayout>
 
-    <Button
-        android:id="@+id/btnlogout"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="logout"
-        android:text="Logout" />
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="logout"
+            android:text="Logout" />
+        <Button
+            android:id="@+id/btnhistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="history"
+            android:text="history" />
+    </LinearLayout>
 
 
 </LinearLayout>

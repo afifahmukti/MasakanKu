@@ -1,11 +1,13 @@
 package com.example.customer.myapplication;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,6 +23,10 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class InputActivity extends AppCompatActivity {
 
     private final static int PICK_IMAGE_REQUEST = 0;
@@ -32,6 +38,8 @@ public class InputActivity extends AppCompatActivity {
     private boolean finish1 = true, finish2 = true;
     private DatabaseReference mReference;
     private StorageReference mStorage;
+    SharedPreferences sp;
+    SharedPreferences.Editor spEdit;
 
     private Uri uri;
     @Override
@@ -49,6 +57,9 @@ public class InputActivity extends AppCompatActivity {
         btnInput = (Button) findViewById(R.id.btnInput);
         btnGambar = (Button) findViewById(R.id.btnGambar);
         gambar = (ImageView)  findViewById(R.id.gambar);
+
+        sp = getSharedPreferences(History.PREF_RESEP, MODE_PRIVATE);
+        spEdit = sp.edit();
     }
 
     public void pilihGambar(View view){
@@ -72,6 +83,8 @@ public class InputActivity extends AppCompatActivity {
         nama = this.nama.getText().toString();
         bahan = this.bahan.getText().toString();
         penyajian = this.penyajian.getText().toString();
+
+        //input to firebase
         if(   tips.trim().length() > 0&& nama.trim().length() > 0 &&bahan.trim().length() > 0 && penyajian.trim().length() > 0 && uri != null ){
             if(finish1 && finish2){
                 finish1 = false;
@@ -121,6 +134,37 @@ public class InputActivity extends AppCompatActivity {
         else{
             Toast.makeText(this,"Data masih ada yang kosong" ,Toast.LENGTH_SHORT).show();
         }
+
+
+        // input to sharedpreference
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject.put("judulHistory",nama);
+            jsonObject.put("tipeHistory",tipe);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        if (sp.contains("resep")){
+            String data = sp.getString("resep","NO_DATA");
+
+            try {
+                JSONArray jsonArray = new JSONArray(data);
+                jsonArray.put(jsonObject);
+                spEdit.putString("list",jsonArray.toString());
+                spEdit.apply();
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }else {
+            JSONArray jsonArray = new JSONArray();
+            jsonArray.put(jsonObject);
+            spEdit.putString("list",jsonArray.toString());
+            spEdit.apply();
+        }
+
+        Toast.makeText(this, "sharedpreference judul "+nama, Toast.LENGTH_SHORT).show();
+//        finish();
     }
 
 }

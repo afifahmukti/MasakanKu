@@ -37,9 +37,16 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
+    public void history (View view){
+
+        Intent intent = new Intent(MainActivity.this, History.class);
+        startActivity(intent);
+        finish();
+    }
+
     public void seafood(View view) {
         Intent intent = new Intent(MainActivity.this, TipeResep.class);
-        intent.putExtra("tipe", "TipeResep");
+        intent.putExtra("tipe", "Seafood");
         startActivity(intent);
 
     }

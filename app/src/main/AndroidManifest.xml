@@ -50,7 +50,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".TipeResep" />
         </activity>
-        <activity android:name=".balado"></activity>
+        <activity android:name=".balado" />
+        <activity android:name=".History"
+            android:parentActivityName=".TipeResep">
+        </activity>
     </application>
 
 </manifest>
