@@ -1,0 +1,331 @@
+<resources>
+    <string name="app_name">Masakanaku</string>
+    <string name="actionsign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+
+
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="email_id">Email ID</string>
+    <string name="resep">
+        Bahan Utama :\n
+-Nasi putih 700 gr\n
+-Blue Band 3 sdm\n
+-Udang kecil kupas 100 gr\n
+-Cumi, kupas kulit arinya, potong bulat 100 gr,\n
+-Bakso ikan, potong 4 butir\n
+-Saus tiram 1 sdm\n
+-Kecap asin 1 sdm\n
+-Garam 1/2 sdt\n
+-Lada 1/2 sdt\n
+-Minyak wijen 1 sdt\n
+-Daun bawang, potong 1/2 cm 2 tangkai\n
+-Telur, kocok lepas 2 butir,\n
+-Bawang putih, cincang 4 siung\n
+    </string>
+
+    <string name="penyajian">
+        1. Panaskan Blue Band, tumis bawang putih hingga harum lalu tambahkan udang dan cumi, tumis hingga berubah warna\n
+        2. Tambahkan bakso ikan dan telur, masak hingga telur berbulir dan matang.\n
+        3. Tambahkan saus tiram, lada, kecap asin garam dan daun bawang.\n
+        4. Masukkan nasi putih, masak hingga rata betul lalu terakhir masukkan minyak wijen.
+    </string>
+
+    <string name="resepcumi">
+        Bahan Utama :\n\n
+
+        -12 ekor cumi segar berukuran sedang, dipotong dengan bentuk cincin\n
+        -1/4 cangkir tepung terigu\n
+        -1 sdt garam\n
+        -1 sdt oregano bubuk\n
+        -1/2 sdt bubuk lada hitam\n
+        -1 buah lemon, dipotong berbentuk wedges untuk garnish\n
+        -Minyak goreng\n
+    </string>
+
+    <string name="penyajiancumi">
+        1.Panaskan minyak goreng di dalam wajan.\n
+        2.Sembari menunggu minyak panas, campurkan tepung terigu, garam, oregano bubuk, dan bubuk lada hitam dalam sebuah wadah.\n
+        3.Balurkan cumi yang sudah dipotong ke dalam adonan tepung.\n
+        4.Goreng cumi selama 2-3 menit saja atau sampai warnanya berubah keemasan, jangan menggoreng terlalu lama agar cumi tidak alot.\n
+        5.Angkat cumi dan tiriskan minyaknya.\n
+        6.Sajikan cumi goreng tepung bersama irisan lemon.\n
+
+    </string>
+
+    <string name="tipscumi">
+        Berikut adalah tips yang harus kamu lakukan agar tekstur daging cumi terasa empuk dan tidak alot :\n\n
+
+        1. Rebus dan Rendam Cumi, Cara yang satu ini bisa kamu lakukan sebelum menumis atau menggoreng cumi-cumi. Pertama, rebuslah cumi di dalam air sebentar. Ketika air mendidih, segera angkat dan rendam cumi di dalam air dingin.\n
+        2. Rendam dalam Baking Soda, Nah cara ini juga cukup efektif untuk membuat tekstur daging cumi menjadi lebih empuk. Kamu hanya perlu menyiapkan satu baskom kecil air, lalu tambahkan satu sendok makan baking soda ke dalam baskom tersebut. Masukkan cumi dan diamkan di dalam lemari es selama semalaman.\n
+        3. Rendam Dalam Susu Sapi Segar, Susu sapi juga bisa membuat daging cumi terasa lebih empuk, lho. Pastikan kamu menggunakan susu sapi segar untuk merendam cumi. Kamu membutuhkan waktu seharian untuk merendam cumi di dalam susu. Pastikan wadah berisi rendaman cumi ini tertutup rapat agar tidak tercemar. Selain itu, kamu juga bisa memasukkan wadah yang berisi susu dan cumi ini ke dalam lemari es.\n
+        4. Persingkat Waktu Memasak, Proses memasak yang terlalu lama dapat membuat daging cumi berubah menjadi alot. Sebaiknya, ketika masakan cumi sudah matang, segera angkat dari wajan. Pindahkan ke wadah yang lebih dingin untuk menghentikan proses memasak.\n
+
+
+  Selain itu, kesegaran cumi pada saat beli juga sangat berpengaruh dalam menentukan keras atau tidaknya daging cumi tersebut. Agar daging lebih empuk setelah dimasak, belilah cumi segar dengan ukuran yang tidak terlalu besar.\n
+    </string>
+
+    <string name="resepudang">
+        Bahan Utama :\n\n
+
+        1. Udang windu atau sesuai selera, dibersihkan\n
+        2. Minyak goreng atau margarin secukupnya, untuk menumis\n
+        3. Garam, secukupnya\n
+        4. Gula, secukupnya\n
+        5. Penyedap rasa, secukupnya\n
+        6. Saus bangkok (opsional bila suka)\n
+        7. 5 butir Bawang merah\n
+        8. 3 butir Bawang putih\n
+        9. 1 buah Bawang bombay, cincang halus\n
+        10. 1 buah Tomat, cincang\n
+        11. 5 buah Cabe merah, sesuai selera\n
+        12. 1 sdt air asam\n
+    </string>
+
+    <string name="penyajianudang">
+
+        1. Haluskan bawang merah, bawang putih, tomat dan cabai merah.\n
+        2. Panaskan minyak goreng atau mentega, masukkan udang dan oseng hingga berwarna kemerahan.\n
+        3. Masukkan bawang bombay, oseng sebentar lalu tambahkan bumbu yang sudah dihaluskan.\n
+        4. Tambahkan air asam, garam, gula, penyedap rasa dan saus bangkok secukupnya, aduk sampai rata. Jika dirasa bumbu sudah pas, matikan api, angkat dan sajikan.\n
+    </string>
+
+    <string name="tipsudang">
+
+        1. Pilihlah udang yang segar dengan cara pegang badan udang, jika badan udang masih terasa keras artinya keadaan udang masih bagus atau segar.\n
+        2. Saat memasak udang kulit udang bisa di kupas dulu ato tidak, itu semua tegantung selera sobat onliners. Tapi biasanya udang akan terasa lebih gurih jika dimasak menggunakan kulitnya. Karena di dalam kulit udang mengandung antibodi. Jadi jika sobat onliners cenderung alergi ama udang, lebih baik makan bersama kulitnya. Karena biasanya bisa menjadi penawarnya. Karena berdasarkan penelitian chitosan, “kulit udang” dapat mengobati berbagai penyakit termasuk hipertensi dan diabetes militus. Itulah beberapa khasiat dan fungsi udang yang ternyata sangat baik untuk kesehatan. Tapi buat sobat onliners yang mempunyai kolesterol tinggi, sebaiknya agak dikurangi ya memakan udang atau seafood.
+    </string>
+
+    <string name="resepayamadu">
+        Bahan Utama :\n\n
+
+        1. 500 gram ayam\n
+        2. 1 buah jeruk nipis\n
+        3. 2 lembar daun jeruk\n
+        4. 2 lembar daun salam\n
+        5. 2 sdm saus tiram\n
+        6. 3 sdm madu\n
+        7. 2 sdm kecap manis\n
+        8. 1 sdm gula merah (sisir)\n
+        9. 1 sdt garam/secukupnya\n
+        10. 1 sdt kaldu non MSG (kaldu jamur)\n
+        11. 2 sdm air asam jawa\n
+        12. 30 ml santan instan (santan kara 1/2 sachet)\n
+        13. secukupnya minyak (untuk menumis)\n\n
+ Bumbu Halus :\n\n
+4 siung bawang putih\n
+6 siung bawang merah\n
+1/4 sdt merica bubuk\n
+1/4 sdt jahe bubuk\n
+1/2 sdm ketumbar bubuk\n
+    </string>
+    <string name="penyajianayammadu">
+
+    1. Potong ayam menjadi beberapa bagian. Baluri dengan jeruk nipis, biarkan beberapa menit lalu cuci.\n\n
+    2. Panaskan minyak/margarin, tumis bumbu halus. Masukkan daun jeruk dan daun salam, tumis hingga harum.\n\n
+    3. Masukkan ayam, aduk-aduk.\n\n
+    4. Tambahkan air, santan, saus tiram, madu, gula merah, kecap, garam, kaldu bubuk dan air asam jawa. Aduk merata, lalu tes rasa.\n\n
+    5. Masak hingga air menyusut dan bumbu meresap (jangan terlalu kering, sisakan sedikit bumbu untuk olesan saat membakar ayam)\n\n
+    6. Bakar ayam. Sesekali balik dan olesi dengan bumbu.\n\n
+    7. Angkat dan sajikan dengan sambal dan lalapan.\n\n
+</string>
+
+    <string name="resepbetutu">
+        Bahan Utama :\n\n
+        1. Kemiri kurang lebih sebanyak 4 pcs. Disangrai terlebih dahulu sebelum dihaluskan supaya lebih wangi.\n\n
+        2. Bawang putih ukuran sedang besar kurang lebih sebanyak 3 siung saja.\n\n
+        3. Bawang merah ukuran sedang besar kurang lebih sebanyak 6 siung saja.\n\n
+        4. Terasi kualitas bagus yang sudah dibakar sebentar kurang lebih sebanyak 1 sendok kecil saja.\n\n
+        5. Kunyit ukuran sedang besar kurang lebih sebanyak 2 ruas jari orang dewasa saja. Sebaiknya kunyitnya dibakar sebentar sebelum dihaluskan.\n\n
+        6. Ketumbar yang sudah disangrai sebelumnya kurang lebih sebanyak 1 sendok makan saja.\n\n
+        7. Pala halus atau bubuk sedikit saja atau kurang lebih sebanyak 0.5 sendok kecil saja.\n\n
+        8. Kencur ukuran kecil kurang lebih sebanyak 3 pc saja atau kurang lebih 1 pcs saja kalau ukurannya cukup besar.\n\n
+        9. Lada halus secukupnya sesuai selera atau kurang lebih sebanyak 1 sendok kecil saja.\n\n
+        10. Buah cabai merah secukupnya sesuai selera.\n\n
+        11. Buah cabai rawit merah secukupnya sesuai selera.\n\n
+
+
+    </string>
+
+    <string name="penyajianbetutu">
+        1. Setelah ayam yang digunakan dicuci bersih dengan air mengalir kemudian lumuri bagian dalam dan luar ayam dengan campuran garam dan jahe halus. Biarkan selama kurang lebih 30 menit supaya lebih meresap.\n\n
+        2. Haluskan semua bumbu ayam betutu yang sudah kita persiapkan sebelumnya, seperti bawang merah, bawang putih, lada, kunyit, kencur dan lainnya sampai benar-benar halus.\n\n
+        3. Siapkan penggorengan dan beri minyak secukupnya untuk menumis bumbu betutunya.\n\n
+        4. Masukkan bumbu ayam betutu yang sudah dihaluskan kemudian aduk-aduk sampai rata dan tercium bau harum khas tumisan bumbunya.\n\n
+        5. Masukkan irisan sereh, daun salam dan daun jeruk kedalam penggorengan kemudian aduk-aduk kembali kemudian sisihkan.\n\n
+        6. Masukkan daun singkongnya kedalam wajan bersama dengan 1/3 bumbu tumisan diatas kemudian aduk-aduk sebentar kembali sampai rata.\n\n
+        7. Ambil ayamnya kemudian masukkan daun singkong yang sudah ditumis diatas kedalam bagian dalam ayamnya. Setelah itu jahit supaya tidak meluber atau bisa juga ditusuk dengan lidi dibagian bawah ayamnya.\n\n
+        8. Ambil daun pisangnya kemudian ambil sebagian bumbu ayam betutunya dan ratakan di bagian bawah.\n\n
+        9. Letakkan ayam diatasnya kemudian tutupi kembali bagian samping dan atasnya dengan sisa bumbunya kemudian bungkus daun pisangnya dengan rapi (bisa menggunakan tali untuk mengikatnya).\n\n
+        10. Masukkan bungkusan daun pisang berisi ayam diatas kedalam panci kukusan kemudian masak sampai ayam hampir matang dan bumbunya meresap (kurang lebih sekitar 50 menit sampai dengan 1 jam).\n\n
+        11. Setelah itu siapkan loyang dan alasi dengan kertas aluminum foil dan letakkan daun pisang yang berisi ayam diatasnya.\n\n
+        12. Masukkan kedalam oven panggangan dan masak sampai benar-benar matang (kurang lebih selama 45 menit sampai 1 jam).\n\n
+        13. Setelah matang buka daun pisangnya dan siapkan di piring hidangan.\n\n
+
+
+    </string>
+
+    <string name="resepayamgeprek">
+        Bahan :\n\n
+- 1 ekor ayam negeri ukuran kecil berat sekitar 700 gram, potong menjadi 4 bagian\n
+- minyak yang banyak untuk menggoreng ayam\n\n
+
+Bumbu dihaluskan:\n\n
+- 3 siung bawang putih\n
+- 3 butir kemiri\n
+- 2 sendok teh ketumbar\n
+- 1 cm kunyit\n
+- 1/2 cm jahe\n
+- 1 sendok makan air jeruk nipis/lemon\n
+- 1 sendok teh garam\n
+- 1 butir telur ayam, kocok lepas (optional, saya tidak pakai)\n\n
+
+Bumbu dan bahan tepung:\n\n
+- 4 sendok makan tepung terigu\n
+- 3 sendok makan maizena\n
+- 1 sendok makan tepung sagu/tapioka\n
+- 1 sendok teh baking powder double acting\n
+- 1/2 sendok teh garam halus\n
+- 1/4 sendok teh merica bubuk\n
+- 1 sendok teh bawang putih bubuk (optional)\n\n
+
+Bahan sambal korek:\n\n
+- 15 buah cabai rawit merah\n
+- 5 buah cabai merah keriting\n
+- 5 siung bawang putih\n
+- 3 - 5 sendok makan minyak panas bekas menggoreng ayam\n
+- 1 sendok teh garam\n
+
+    </string>
+
+    <string name="penyajianayamgerprek">
+
+        1. Haluskan bumbu ayam, lalu ungkep sebentar ayamnya\n
+        2. Kocok telor lepas sisihkan. Lalu terigu kaldu dan merica dicampur\n
+        3. Setelah ayam ungkep matang, siapkan minyak hangat, lumur ayam dengan telor lalu lumuri ke tepung yg sudah dibumbui tadi diulang sekali lagi lalu goreng dg api sedang.\n
+        4. Setelah ayam matang, gorwng juga bawang dan cabe setengah matang. Setelah itu buat sambel bawang ditambah garang secukupnya, lalu digeprek ayam gorengnya tadi.. Dan siap dihidangkann\n
+
+    </string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="resepsayurasem">
+        -75 gr kacang panjang, potong 2 cm\n
+        -75 gr labu siam, potong dadu\n
+        -1 bh jagung, potong bulat dan potong 2 bagian\n
+        -50 gr kacang tanah kulit, cuci bersih\n
+        -75 gr melinjo\n
+        -50 gr daun melinjo\n
+        -75 gr nangka muda, potong serasi\n
+        -3 bh cabai merah, belah 2 bagian dan potong menjadi 2\n
+        -3 cm lengkuas, memarkan\n
+        -3 lbr daun salam\n
+        -75 gr asam muda, kerik, memarkan\n
+        -1000 ml air\n
+        -5 sdm gula pasir\n
+        -3 sdt garam\n\n
+
+        Bumbu yang dihaluskan :\n
+        -7 bh bawang merah\n
+        -3 siung bawang putih\n
+        -3 bh cabai merah\n
+        -50 gr kacang tanah\n\n
+
+         Bahan III :\n
+        -25 gr asam jawa\n
+        -100 ml air panas\n
+
+    </string>
+
+    <string name="penyajiansayurasem">
+        1.Rebus air beserta lengkuas, daun salam, asam muda, garam, gula, dan bumbu-bumbu yang telah dihaluskan hingga mendidih.\n
+        2.Masukkan semua bahan, masak hingga cukup matangnya.\n
+        3.Masukkan bahan III ( airnya saja ), masak hingga matang. Angkat dan sayur asem siap dihidangkan.\n
+    </string>
+
+    <string name="resepsayurlodeh">
+        Bahan Utama :\n
+1.Melinjo secukupnya\n
+2.100 gr daun melinjo\n
+3.200 gr labu siam\n
+4.100 gr kacang panjang\n
+5.1 buah terung\n
+6.3 potong jagung\n
+7.600 ml santan\n
+8.1 potong tempe\n\n
+Bumbu-Bumbu\n
+9.3 siung bawang putih\n
+10.6 butir bawang merah\n
+11.3 butir kemiri\n
+12.1 sdt ketumbar\n
+13.1 sdm garam\n
+14.Gula putih secukupnya\n\n
+Bumbu Pelengkap Lainnya\n
+15.1 buah cabai merah\n
+16.3 buah cabai hijau\n
+17.1 cm lengkuas\n
+18.2 lembar daun salam\n
+19.1 buah tomat\n
+    </string>
+
+    <string name="penyajiansayurlodeh">
+        Cara Menyiapakan Bahan-Bahan:\n
+1.Kupas labu siam dan potong dengan bentuk dadu.\n
+2.Potong kacang panjang dengan ukuran kurang lebih 2 cm.\n
+3.Potong terung dengan bentuk dadu.\n\n
+Cara Membuat Bumbu\n
+1.Haluskan bawang putih, bawang merah, kemiri dan ketumbar, garam dan gula putih.\n
+2.Setelah itu, iris serong cabai merah dan cabai hijau.\n
+3.Lalu, potong tomat yang telah disiapkan menjadi 4 bagian.\n\n
+Cara Memasak\n
+1.Pertama yaitu, rebus terlebih dahulu santan yang telah disiapkan dan bumbu yang telah dihaluskan di dalam panci. Aduk-aduk hingga mendidih.\n
+2.Setelah itu, masukan lengkuas, jagung, labu siam, melinjo dan kacang panjang. Masak semua bahan hingga matang.\n
+3.Langkah terakhir yaitu, masukan daun melinjo, cabai merah, terung. Masak kembali hingga matang serta hingga bumbu meresap. Setelah itu angkat.\n
+
+    </string>
+
+    <string name="resepterongbalado">
+Bahan:\n
+1.4 bh terong ungu\n\n
+
+Bumbu Halus:\n
+1.6 siung bawang merah\n
+2.4 siung bawang putih\n
+3.5 cabe keriting (kurangi jika ingin tidak terlalu pedas)\n
+4.10 cabai merah besar\n
+5.2 bh tomat\n
+6.Garam dan gula secukupnya\n
+    </string>
+
+    <string name="penyajianterongbalado">
+        Cara Membuat:\n
+1.Iris terong ungu masing-masing menjadi 4 bagian kira-kira 10cm, tiap bagian potong memanjang menjadi empat bagian.\n
+2.Rendam irisan terong ke dalam air agar terong tidak berubah warna. Kemudian di goreng hingga matang.\n
+3.Kupas bawang merah dan bawang putih. Siapkan cabai keriting, cabai merah besar, dan tomat. Ulek sampai halus kemudian tambahkan gula dan garam sesuai selera\n
+4.Setelah bumbu halus dan terong sudah matang, tumis bumbu dengan minyak yang sudah dipanaskan hingga wangi. Kemudian masukan terong dan aduk hingga merata.\n
+
+
+    </string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.example.customer.myapplication.InputActivity">
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:background="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/btnGambar"
+            android:layout_marginTop="8dp"
+            android:onClick="pilihGambar"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Pilih Gambar"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:hint="Nama Resep"
+            app:hintAnimationEnabled="true"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="normal"
+                android:maxLines="1"
+                android:textSize="16sp"
+                android:padding="12dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:hint="Bahan"
+            app:hintAnimationEnabled="true"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/bahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="normal"
+                android:maxLines="10"
+                android:padding="12dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:hint="Penyajian"
+            app:hintAnimationEnabled="true"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/penyajian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="normal"
+                android:maxLines="10"
+                android:padding="12dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:hint="Tips"
+            app:hintAnimationEnabled="true"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="normal"
+                android:maxLines="10"
+                android:padding="12dp" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/btnInput"
+            android:onClick="input"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="bottom|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input"/>
+    </LinearLayout>
+
+</ScrollView>
+
