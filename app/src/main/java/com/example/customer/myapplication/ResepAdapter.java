@@ -13,7 +13,7 @@ import com.bumptech.glide.Glide;
 import java.util.List;
 
 /**
- * Created by Customer on 13/12/2017.
+ * Created by afi on 19/12/2017.
  */
 
 public class ResepAdapter extends RecyclerView.Adapter<ResepAdapter.ResepViewHolder> {

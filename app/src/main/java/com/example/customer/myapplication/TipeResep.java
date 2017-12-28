@@ -51,6 +51,7 @@ public class TipeResep extends AppCompatActivity implements ResepAdapter.ClickLi
         fetchData();
     }
 
+    //get tipe resep
     public void  input(View view){
         Intent intent = new Intent(this, InputActivity.class);
         intent.putExtra("tipe",tipe);

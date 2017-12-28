@@ -30,33 +30,29 @@ public class History extends AppCompatActivity {
     }
 
     private void getAllHistory() {
-        SharedPreferences sp = this.getSharedPreferences(PREF_RESEP,MODE_PRIVATE);
+        SharedPreferences sp = getSharedPreferences(PREF_RESEP,MODE_PRIVATE);
         String data = sp.getString("resep","NO_DATA");
         Log.i("getHistory","masuk");
 
-        String judul = sp.getString("judulHistory","");
-
-        Log.i("getHistory","judul "+judul);
 
 
+        if (data!=null){
+            try {
+                JSONArray jsonArray = new JSONArray(data);
+                historyAdapter = new HistoryAdapter(this,jsonArray);
+                recyclerView.setAdapter(historyAdapter);
+                historyAdapter.notifyDataSetChanged();
 
-//        if (data!=null){
-//            try {
-//                JSONArray jsonArray = new JSONArray(data);
-//                historyAdapter = new HistoryAdapter(this,jsonArray);
-//                recyclerView.setAdapter(historyAdapter);
-//                historyAdapter.notifyDataSetChanged();
-//
-//                Log.i("adapter","set");
-//            } catch (JSONException e) {
-//                e.printStackTrace();
-//            }
-//        }else {
-//            JSONArray jsonArray = new JSONArray();
-//            historyAdapter = new HistoryAdapter(this,jsonArray);
-//            recyclerView.setAdapter(historyAdapter);
-//            historyAdapter.notifyDataSetChanged();
-//            Log.i("adapter","set");
-//        }
+                Log.i("adapter","set");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }else {
+            JSONArray jsonArray = new JSONArray();
+            historyAdapter = new HistoryAdapter(this,jsonArray);
+            recyclerView.setAdapter(historyAdapter);
+            historyAdapter.notifyDataSetChanged();
+            Log.i("adapter","set");
+        }
     }
 }

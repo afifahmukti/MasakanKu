@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 /**
- * Created by Customer on 14/12/2017.
+ * Created by afi on 20/12/2017.
  */
 
 public class ViewPagerAdapter extends PagerAdapter {

@@ -27,6 +27,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
 public class InputActivity extends AppCompatActivity {
 
     private final static int PICK_IMAGE_REQUEST = 0;
@@ -147,20 +148,22 @@ public class InputActivity extends AppCompatActivity {
 
         if (sp.contains("resep")){
             String data = sp.getString("resep","NO_DATA");
-
+            Log.i("if","masuk");
             try {
                 JSONArray jsonArray = new JSONArray(data);
                 jsonArray.put(jsonObject);
-                spEdit.putString("list",jsonArray.toString());
+                spEdit.putString("resep",jsonArray.toString());
                 spEdit.apply();
+                Log.i("try","masuk");
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         }else {
             JSONArray jsonArray = new JSONArray();
             jsonArray.put(jsonObject);
-            spEdit.putString("list",jsonArray.toString());
+            spEdit.putString("resep",jsonArray.toString());
             spEdit.apply();
+            Log.i("else","masuk");
         }
 
         Toast.makeText(this, "sharedpreference judul "+nama, Toast.LENGTH_SHORT).show();
